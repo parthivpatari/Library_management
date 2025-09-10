@@ -6,8 +6,8 @@ from datetime import date, timedelta
 # --- Database Connection ---
 conn = psycopg2.connect(
     dbname="librarydb",
-    user="shivthapa",
-    password="postgres",  # Set your password
+    user="add your user of postgre",  #add your postgre username
+    password="",  # Set your password
     host="localhost"
 )
 cursor = conn.cursor()
